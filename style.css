@@ -1,10 +1,11 @@
 body {
+    font: 14px "Lato", Arial, sans-serif;
     height: 60vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    font-family: sans-serif;
+    color: #666;
 }
 
 .form {
@@ -17,7 +18,7 @@ body {
 .form input {
     width: 100%;
     height: 100%;
-    color: #595f6e;
+    color: #666;
     padding-top: 15px;
     border: none;
     outline: none;
@@ -30,7 +31,7 @@ body {
     width: 100%;
     height: 100%;
     pointer-events: none;
-    border-bottom: 1px solid black;
+    border-bottom: 0.1px solid #666;
 }
 
 .form label::after {
@@ -55,7 +56,7 @@ body {
 .form input:focus+.label-name .content-name,
 .form input:valid+.label-name .content-name {
     transform: translateY(-150%);
-    font-size: 16px;
+    font-size: 12px;
     color: #5fa8d3;
 }
 
